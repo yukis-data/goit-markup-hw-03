@@ -5,6 +5,15 @@
 /*second background #F5F4FA*/
 /*footer background #2F303A*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 /*page index*/
 .page {
   color: #757575;
@@ -14,9 +23,18 @@
   letter-spacing: 0.03em;
 }
 
+/*conteiner*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*header page*/
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
 
 /*logo*/
@@ -58,11 +76,15 @@
 
 /*page section with button*/
 .section-button {
+  margin-bottom: 94px;
+
   background-color: #2f303a;
   text-align: center;
 }
 
 .section-button-title {
+  margin-bottom: 30px;
+
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -72,6 +94,12 @@
 }
 
 .page-button {
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0px solid transparent;
+
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -79,6 +107,7 @@
   letter-spacing: 0.06em;
   background-color: #2196f3;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .page-button:focus,
 .page-button:hover {
@@ -92,6 +121,8 @@
 
 /*section feature*/
 .feature {
+  margin-bottom: 94px;
+
   background-color: #ffffff;
 }
 .feature-title {
@@ -103,6 +134,8 @@
 
 /*work and team*/
 .works {
+  margin-bottom: 94px;
+
   background-color: #ffffff;
 }
 
@@ -116,6 +149,9 @@
 
 /*our team*/
 .team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+
   background-color: #f5f4fa;
 }
 
@@ -199,6 +235,8 @@
 
 /*text formatting*/
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
   text-decoration: none;
 }

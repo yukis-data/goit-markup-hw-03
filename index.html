@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Web-Studio</title>
   </head>
   <body class="page">
     <!--page header-->
     <header class="header">
-      <nav>
+      <nav class="container">
         <!--top line section-->
         <a href="./index.html" class="logo list"><span class="logo-item">Web</span>Studio</a>
     
@@ -25,10 +26,12 @@
         </ul>
       </nav>
     
+      <div class="container">
       <ul class="nav-contacts list">
         <li><a href="mailto:info@example.com" class="nav-contacts list">info@example.com</a></li>
         <li><a href="tel:+38099111111" class="nav-contacts list">+38 099 111 11 11</a></li>
       </ul>
+      </div>
     </header>
     
      <!--page section with button-->
@@ -39,7 +42,7 @@
         
     
     <!--main content-->
-    <main>
+    <main class="container">
            <!--section feature-->
           <section class="feature">
             <ul class="list">
@@ -109,6 +112,7 @@
     
     <!--end of the page-->
     <footer class="footer">
+      <div class="container">
       <h2><a href="./index.html" class="logo-footer list"><span class="logo-item">Web</span>Studio</a></h2>
       <!--address and contact info-->
       <address class="address">
@@ -118,6 +122,7 @@
           <li><a href="tel:+380991111111" class="footer-contacts list">+38 099 111 11 11</a></li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
