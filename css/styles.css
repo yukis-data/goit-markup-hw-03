@@ -5,15 +5,6 @@
 /*second background #F5F4FA*/
 /*footer background #2F303A*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
 /*page index*/
 .page {
   color: #757575;
@@ -32,9 +23,14 @@ h6 {
 }
 
 /*header page*/
-.header {
+.page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
+}
+
+.header-nav {
+  padding-top: 32px;
+  padding-bottom: 33px;
 }
 
 /*logo*/
@@ -51,14 +47,14 @@ h6 {
 }
 
 /*header nav*/
-.header-nav {
+.nav-item {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
 }
-.header-nav:hover,
-.header-nav:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: #2196f3;
 }
 
@@ -76,13 +72,14 @@ h6 {
 
 /*page section with button*/
 .section-button {
-  margin-bottom: 94px;
-
   background-color: #2f303a;
   text-align: center;
 }
 
 .section-button-title {
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
   margin-bottom: 30px;
 
   color: #ffffff;
@@ -94,6 +91,8 @@ h6 {
 }
 
 .page-button {
+  margin-bottom: 200px;
+
   min-width: 200px;
   min-height: 50px;
   border-radius: 4px;
@@ -120,11 +119,15 @@ h6 {
 }
 
 /*section feature*/
-.feature {
-  margin-bottom: 94px;
-
+.feature-bg {
   background-color: #ffffff;
 }
+
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .feature-title {
   color: #212121;
   font-weight: 700;
@@ -133,13 +136,17 @@ h6 {
 }
 
 /*work and team*/
-.works {
-  margin-bottom: 94px;
-
+.works-bg {
   background-color: #ffffff;
 }
 
-.section-title {
+.works {
+  padding-bottom: 94px;
+}
+
+.works-title {
+  margin-bottom: 50px;
+
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -148,14 +155,21 @@ h6 {
 }
 
 /*our team*/
-.team {
-  padding-bottom: 94px;
-  padding-top: 94px;
-
+.team-bg {
   background-color: #f5f4fa;
 }
 
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-photo {
+  margin-bottom: 30px;
+}
+
 .team-title {
+  margin-bottom: 50px;
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -165,9 +179,15 @@ h6 {
 }
 
 .team-names {
+  margin-top: 10px;
+
   color: #212121;
   font-weight: 500;
   letter-spacing: 0.03em;
+}
+
+.team-text {
+  padding-bottom: 30px;
 }
 
 .color-group {
@@ -175,8 +195,17 @@ h6 {
 }
 
 /*page footer*/
-.footer {
+.footer-bg {
   background-color: #2f303a;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer > h2 {
+  margin-bottom: 20px;
 }
 
 .logo-footer {
@@ -236,7 +265,17 @@ h6 {
 /*text formatting*/
 .list {
   padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
