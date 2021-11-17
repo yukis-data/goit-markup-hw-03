@@ -301,8 +301,8 @@
   border: 1px solid #eeeeee;
 }
 
-.project-img {
-  margin-bottom: 20px;
+.padding-text {
+  padding: 20px 24px;
 }
 
 .projects-title {
@@ -314,8 +314,6 @@
 }
 
 .projects-text {
-  padding-bottom: 20px;
-
   color: var(--second-text-color);
   font-weight: 400;
   font-size: 16px;
