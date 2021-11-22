@@ -123,8 +123,7 @@ li > .nav-contacts {
 
 .section-button-title {
   padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
+
   margin-bottom: 30px;
 
   color: var(--accent-text-color);
@@ -133,6 +132,7 @@ li > .nav-contacts {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .page-button {
